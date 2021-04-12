@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    min-height: 100vh;
+    background: linear-gradient(to right top, #91e5f6, #A1E887);
+}
+.glassbg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.glass{
+    background-color: white;
+    min-height: 90vh;
+    border-radius: 2rem;
+    width: 40%;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+}
+.profile{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.occupation{
+    margin-top: -10px;
+}
+.name,
+.occupation{
+    color: #b5bcb3;
+}
+.avatar{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    /*border: 3.5px solid rgba(255, 255, 255, 0.8);*/
+    cursor: pointer;
+    box-shadow: 2px 4px 17px rgba(3, 2, 2, 0.35);
+}
+.avatar:hover{
+    box-shadow: 2px 4px 25px rgba(3, 2, 2, 0.5);
+}
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 35px;
+}
+.ytlogo{
+    width: 53px;
+    height: 38px;
+}
+.instalogo{
+    height: 50px;
+    width: 50px;
+}
+.ytlogo,
+.instalogo{
+    padding-left: 20px;
+    padding-right: 20px;
+}
